@@ -42,6 +42,6 @@ const isprime_optimized = (num) => {
     return true; 
 }
 
-console.log(prime_brute(21));
-console.log(isprime(21));
-console.log(isprime_optimized(21));
+module.exports = {
+    isprime_optimized
+}
